@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EZ Score</h1>
+        <form id="grading-form">
+            <input type="text" id="assignment-name" name="assignmentName" placeholder="Assignment Name" required>
+            <input type="text" id="student-name" name="studentName" placeholder="Student Name" required>
+            <input type="file" id="pdf-upload" name="pdf" accept=".pdf" required>
+            <textarea id="rubric" name="rubric" placeholder="Enter rubric here" required></textarea>
+            <button type="submit">Grade</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
