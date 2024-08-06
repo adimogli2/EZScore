@@ -11,8 +11,8 @@ import dropbox
 app = Flask(__name__, static_folder='static')
 
 # Set your API keys
-openai.api_key = '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'
-dbx = dropbox.Dropbox('sl.BxlUvfpqIVThKmfYsYZyDAIpInT5KxShUL3eKx_WkqaKJubdz3XZtQSIvHJJJA0Hnbhu_3nXJijZZ5UVnV4zcfJ3hh1tVnqQ-B8fiLblt3GOWTYeIZ5RbDUJs_GSkVfBHFWu65Vz624GtRbtX4EGvnA')
+openai.api_key = 'YOUR_OPENAI_KEY_HERE'
+dbx = dropbox.Dropbox('YOUR_DROPBOX_KEY_HERE')
 
 @app.route("/")
 def hello_world():
